@@ -1,4 +1,4 @@
-while wait(0.5) do
+while wait(0.2) do
     for i,v in pairs(game.Workspace:GetDescendants()) do
         if v:IsA("Part") and v["BrickColor"] then
             v.BrickColor = BrickColor.random()
